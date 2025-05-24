@@ -75,4 +75,8 @@ else
   echo "ℹ️ Zsh exec already present in ~/.bashrc, skipping..."
 fi
 
+echo "Setting up GCM for use with WSL"
+git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/bin/git-credential-manager.exe"
+echo "Configured WSL mount to point to Windows GCM"
+
 echo "✅ All done! Please restart your terminal or run 'zsh' to start using Zsh."
