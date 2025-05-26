@@ -13,5 +13,5 @@ wsl --install -d Ubuntu
 2. Bootstrap the environment
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/tbrittain/dotfiles/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/tbrittain/dotfiles/main/bootstrap/install.sh | bash
 ```
