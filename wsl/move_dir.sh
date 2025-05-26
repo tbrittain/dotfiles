@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# move_dir.sh is for moving an existing directory on the Windows filesystem to a new directory
+# on the WSL distro filesystem. See https://learn.microsoft.com/en-us/windows/wsl/setup/environment#file-storage
 set -e
 
 if [ -z "$1" ]; then
